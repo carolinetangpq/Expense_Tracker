@@ -21,7 +21,6 @@ You are working as a software developer in Techno Solutions. You have been assig
 - On selecting the option 1 or 2 i.e Add Expense or Add Income it should ask for `title`, `description`, `amount` & `date`. Data should be stored in List collection.
 - On selecting the option 3 or option 4 i.e View Expense or View Income it should display the records accordingly.
 - In addition the `Available Balance` should be stored in an external text file and when user select option 5 for checking the `Available Balance` it should read the data from file and display the balance.
-- Handle the exceptions properly to avoid any abnormal crashes in the application.
 - In case if the entered option is not valid it should give a message `Wrong Choice Entered`.
 - The menu should be displayed again when each transaction is complete which means it should run in an infinite loop.
 - ***IMPORTANT - There should be a modularity in your code. Keep everything clean and separate. Follow Object Oriented paradigms.***
