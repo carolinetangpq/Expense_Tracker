@@ -1,4 +1,4 @@
-# C Sharp Mettle Assessment
+# C Sharp Coding Assessment
 
 ## Duration 2.5 Hours
 
