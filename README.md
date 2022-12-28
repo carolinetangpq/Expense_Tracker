@@ -13,11 +13,10 @@ You are working as a software developer in Techno Solutions. You have been assig
 - Application should also calculate the available balance based on the income and expenses.
 - All data should be stored in List collection.
 - Upon starting the application it should display the menu and take the input from the user and perform the task as per the entered value. The menu should have below mentioned options-
-1. Add Expense
-2. Add Income
-3. View Expenses
-4. View Income
-5. Check Available Balance
+1. Add Transaction
+2. View Expenses
+3. View Income
+4. Check Available Balance
 - On selecting the option 1 or 2 i.e Add Expense or Add Income it should ask for `title`, `description`, `amount` & `date`. Data should be stored in List collection.
 - On selecting the option 3 or option 4 i.e View Expense or View Income it should display the records accordingly.
 - In addition the `Available Balance` should be stored in an external text file and when user select option 5 for checking the `Available Balance` it should read the data from file and display the balance.
