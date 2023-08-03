@@ -28,21 +28,27 @@ namespace ExpenseTrackingapp
 
         public Record() { }
 
+        public virtual double getAmount()
+        {
+            return Amount; 
+        }
+
         public virtual double StoreAmount(double d)
         {
             //double ans; 
             //double ans = double.Parse(Console.ReadLine()); 
-             if (Amount < 0)
+             if (d < 0)
             {
                 Expense e = new Expense();
                 Console.WriteLine("Expense has been added: {0}", d);
-                return e.Amount; 
+                return e.getAmount();
             } else
             {
                 Income i = new Income();
                 //i.Amount = ans;
                 Console.WriteLine("Income has been added: {0}", d);
-                return i.Amount; 
+                Amount = d; 
+                return i.getAmount(); 
             }
 
         }
