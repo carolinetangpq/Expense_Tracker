@@ -8,9 +8,13 @@ namespace ExpenseTrackingapp
 {
     public class Income:Record
     {
-        public double IncomeRecord { get; set; }
         public Income() { }
 
+        public override double getAmount()
+        {
+            return base.getAmount();
+
+        }
         public override string ToString()
         {
             return string.Format("Record:\n" +
